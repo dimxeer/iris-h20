@@ -1,0 +1,21 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Checkpoints & Large Model Weights
+*.pth
+*.pt
+*.bin
+
+# Private Datasets & JSON Corpi
+dataset/
+*.json
+!iris_sample_corpus.json
+
+# Logs & Virtual Environments
+*.log
+venv/
+.env
+.vscode/
+.idea/
